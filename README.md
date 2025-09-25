@@ -77,8 +77,8 @@ Deploy case management for the 771 patients with 30-day readmissions, especially
 Dual Eligible patients pay only $1,696 per encounter while Medicaid pays $6,205 - nearly four times more than the lowest payer. The hospital should focus on attracting patients with better-paying insurance plans and negotiate higher rates with the lowest-paying insurers like Dual Eligible.
 
  ## Technical Implementation
--	**Database:** MySQL with four-table normalized design connecting patient demographics to clinical encounters and financial records.
--	**Core Analysis Methods:** LEAD window functions to track patient readmission intervals, CASE statement aggregation for encounter type distribution, and multi-table joins linking procedures to cost and coverage data.
+-	**Database:** `MySQL` with four-table normalized design connecting patient demographics to clinical encounters and financial records.
+-	**Core Analysis Methods:** `LEAD` `window function` to track patient readmission intervals, `CASE` statement aggregation for encounter type distribution, and multi-table `joins` linking procedures to cost and coverage data.
 -	**Dataset:** 11 years of operational data (2011-2022) covering 1,000+ patient records and 27,000+ encounters sourced from [Maven Analytics Hospital Patient Records](https://mavenanalytics.io/data-playground/hospital-patient-records).
 
 ## Project Limitations
