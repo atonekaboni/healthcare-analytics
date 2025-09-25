@@ -87,10 +87,10 @@ Dual Eligible patients pay only $1,696 per encounter while Medicaid pays $6,205 
 -	**Cost interpretation:** Analysis uses hospital base costs, not actual patient bills or final insurance payments.
 -	**Scope:** Single hospital system data may not represent national healthcare patterns or rural facilities.
 
-## Connect With Me
+## Contact
 
 <p align="center">
-  <a href="https://atonekaboni.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://atonekaboni.github.io/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/tonekaboni/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/tonekaboni/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
