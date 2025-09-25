@@ -22,24 +22,24 @@ This repository contains the complete healthcare analytics project with the foll
 
 
 ##  Executive Summary
-Massachusetts General Hospital analysis reveals critical revenue risks with 48.7% of encounters lacking payer coverage, representing potential losses exceeding $75 million annually. Patient volume grew 164% over the decade, but 2021 data shows concerning readmission patterns with 771 patients requiring readmission within 30 days. The analysis identifies actionable opportunities for revenue recovery through pre-visit insurance verification and targeted case management for high-risk patients.
+Massachusetts General Hospital analysis reveals critical revenue risks with 49% of encounters lacking payer coverage, representing potential losses exceeding $75 million annually. Patient volume grew 164% over the decade, but 2021 data shows concerning readmission patterns with 771 patients requiring readmission within 30 days. The analysis identifies actionable opportunities for revenue recovery through pre-visit insurance verification and targeted case management for high-risk patients.
 
 ## Key Findings
 ### Revenue Coverage Crisis
--	**payer coverage:** 48.7% of all encounters (13,586 visits) operate without payer coverage, representing substantial revenue exposure affecting nearly half of hospital activity.
+-	**payer coverage:** **49%** of all encounters (13,586 visits) operate without payer coverage, representing substantial revenue exposure affecting nearly half of hospital activity.
 
 -	**Reimbursement:** Payer reimbursement varies dramatically, with Medicaid providing the highest average at $6,205 per encounter, while Dual Eligible patients generate the lowest reimbursement at only $1,696 per encounter. Uninsured patients generate $5,593 in average claims, indicating significant uncollectable receivables.
 
-<p align="center"><img width="260" height="auto" alt="Claim Cost" src="https://github.com/user-attachments/assets/1ad45e17-962f-4b13-8de8-2957d789c108" /><br><small><em>Claim Cost</em></small></p>
+<p align="center"><img width="270" height="auto" alt="Claim Cost" src="https://github.com/user-attachments/assets/1ad45e17-962f-4b13-8de8-2957d789c108" /><br><small><em>Claim Cost</em></small></p>
  
 ### Critical Care Economics
 The analysis reveals dramatic cost variations in hospital procedures. ICU admissions dominate at $206,260 per procedure (5 total), representing the most resource-intensive care. However, the most striking finding is electrical cardioversion with 1,383 procedures at $25,903 each (over $35 million) - indicating substantial resource allocation to cardiac emergency procedures.
 
-<p align="center"><img width="560" height="auto" alt="Average Cost" src="https://github.com/user-attachments/assets/547d07a0-453f-47c3-a2aa-03160057964c" /><br><small><em>Average Cost</em></small></p>
+<p align="center"><img width="570" height="auto" alt="Average Cost" src="https://github.com/user-attachments/assets/547d07a0-453f-47c3-a2aa-03160057964c" /><br><small><em>Average Cost</em></small></p>
 
 In contrast, high-volume procedures demonstrate standardized operational pricing across routine hospital services. The majority of frequent procedures operate at a consistent $431 cost structure - health assessments (4,596 procedures), hospice care (4,098), depression screening (3,614) all follow this uniform rate. However, renal dialysis emerges as a significant exception with 2,746 procedures at $1,004 each, representing nearly 2.5 times the standard rate and highlighting the resource-intensive nature of chronic kidney disease management.
 
-<p align="center"><img width="560" height="auto" alt="high-volume procedures" src="https://github.com/user-attachments/assets/e53d16ae-6eb3-422e-a244-84c08d0351f5" /><br><small><em>high-volume procedures</em></small></p>
+<p align="center"><img width="570" height="auto" alt="high-volume procedures" src="https://github.com/user-attachments/assets/e53d16ae-6eb3-422e-a244-84c08d0351f5" /><br><small><em>high-volume procedures</em></small></p>
 
 ### Patient Safety Concerns
 <b>771 patients</b> required readmission within 30 days. The most extreme case shows 1,376 readmissions for a single patient, representing both safety risks and resource consumption.
@@ -68,13 +68,15 @@ In contrast, high-volume procedures demonstrate standardized operational pricing
 ## Strategic Recommendations
 
 **Revenue Leakage**
-With 48.7% of encounters having no insurance coverage, implement automatic insurance checks 24-48 hours before patient visits. This could recover millions in lost revenue and should be the top priority given how many patients are currently uninsured.
+With 49% of encounters having no insurance coverage, implement automatic insurance checks 24-48 hours before patient visits. This could recover millions in lost revenue and should be the top priority given how many patients are currently uninsured.
 
 **Target High-Risk Patients** 
 Deploy case management for the 771 patients with 30-day readmissions, especially targeting the top 5 patients averaging nearly 800 readmissions each. Better care coordination could significantly reduce both costs and safety risks while improving patient outcomes.
 
 **Improve Insurance Payment Strategy**
 Dual Eligible patients pay only $1,696 per encounter while Medicaid pays $6,205 - nearly four times more than the lowest payer. The hospital should focus on attracting patients with better-paying insurance plans and negotiate higher rates with the lowest-paying insurers like Dual Eligible.
+
+<p align="center"><img width="589" height="390" alt="image" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
 
  ## Technical Implementation
 -	**Database:** `MySQL` with four-table normalized design connecting patient demographics to clinical encounters and financial records.
