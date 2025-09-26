@@ -28,9 +28,8 @@ Massachusetts General Hospital analysis reveals critical revenue risks with 49% 
 ### Revenue Coverage Crisis
 -	**payer coverage:** 49% of all encounters (13,586 visits) operate without payer coverage, representing substantial revenue exposure affecting nearly half of hospital activity.
 
--	**Reimbursement:** Payer reimbursement varies dramatically, with Medicaid providing the highest average at $6,205 per encounter, while Dual Eligible patients generate the lowest reimbursement at only $1,696 per encounter. Uninsured patients generate $5,593 in average claims, indicating significant uncollectable receivables.
-
-<p align="center"><img width="270" height="auto" alt="Claim Cost" src="https://github.com/user-attachments/assets/1ad45e17-962f-4b13-8de8-2957d789c108" /><br><small><em>Claim Cost</em></small></p>
+-	**Reimbursement:** Payer reimbursement varies dramatically, with Medicaid providing the highest average at $6,205 per encounter, while Dual Eligible patients generate the lowest reimbursement at only $1,696 per encounter. Uninsured patients generate $5,593 in average claims, indicating significant uncollectable receivables. (Visualization created in Python with SQLAlchemy and Matplotlib.)
+<p align="center"><img width="589" height="390" alt="Payer Performance Chart" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
  
 ### Critical Care Economics
 The analysis reveals dramatic cost variations in hospital procedures. ICU admissions dominate at $206,260 per procedure (5 total), representing the most resource-intensive care. However, the most striking finding is electrical cardioversion with 1,383 procedures at $25,903 each (over $35 million) - indicating substantial resource allocation to cardiac emergency procedures.
@@ -43,7 +42,8 @@ In contrast, high-volume procedures demonstrate standardized operational pricing
 
 ### Patient Safety Concerns
 <b>771 patients</b> required readmission within 30 days. The most extreme case shows 1,376 readmissions for a single patient, representing both safety risks and resource consumption.
-
+<p align="center"><img width="659" height="auto" alt="image" src="https://github.com/user-attachments/assets/ab8825c7-b062-4321-a699-10f76d005e26" /><br><small><em>SQL script for calculating patients with highest number of readmissions</em></small></p>
+<br>
 <p align="center"><img width="280" height="auto" alt="Readmission" src="https://github.com/user-attachments/assets/43e3ad83-d1a8-41ea-9906-a52330cecb16" /><br><small><em>Readmission</em></small></p>
 
 ### Operational Efficiency
@@ -75,9 +75,6 @@ Deploy case management for the 771 patients with 30-day readmissions, especially
 
 **Improve Insurance Payment Strategy**
 Dual Eligible patients pay only $1,696 per encounter while Medicaid pays $6,205 - nearly four times more than the lowest payer. The hospital should focus on attracting patients with better-paying insurance plans and negotiate higher rates with the lowest-paying insurers like Dual Eligible.
-
-<p align="center"><img width="589" height="390" alt="Payer Performance Chart" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
-
 
  ## Technical Implementation
 -	**Database:** `MySQL` with four-table normalized design connecting patient demographics to clinical encounters and financial records.
