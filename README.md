@@ -76,7 +76,7 @@ Deploy case management for the 771 patients with 30-day readmissions, especially
 **Improve Insurance Payment Strategy**
 Dual Eligible patients pay only $1,696 per encounter while Medicaid pays $6,205 - nearly four times more than the lowest payer. The hospital should focus on attracting patients with better-paying insurance plans and negotiate higher rates with the lowest-paying insurers like Dual Eligible.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="589" height="390" alt="Payer Performance Chart" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
+<p align="center"><img width="589" height="390" alt="Payer Performance Chart" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
 
 
  ## Technical Implementation
