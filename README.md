@@ -1,8 +1,9 @@
 # Healthcare Data Analysis
 **SQL and Excel-based analysis of Massachusetts General Hospital operations for data-driven decision-making and performance reporting.**
 
-[![SQL_Guiude](https://img.shields.io/badge/SQL%20Guide-4f97d6?logo=mysql&logoColor=white)](https://github.com/atonekaboni/healthcare-analytics/blob/main/Healthcare_Data_Analysis_SQL.pdf)
-[![Excel_Slides](https://img.shields.io/badge/Excel%20Dasboard-00b050?logo=microsoft-excel&logoColor=white)](https://github.com/atonekaboni/healthcare-analytics/blob/main/Excel/Healthcare_Data_Analysis_Excel.pdf)
+[![SQL_Guiude](https://img.shields.io/badge/SQL%20Guide-4f97d6?logo=mysql&logoColor=white)](https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Healthcare_Data_Analysis_SQL.pdf)
+[![Excel_Slides](https://img.shields.io/badge/Excel%20Slide%20Deck-00b050?logo=microsoft-excel&logoColor=white)](https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Excel/Healthcare_Data_Analysis_Excel.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/tonekaboni_healthcare-data-analysis-activity-7391035320928022528-4x1A)
 
 ## Project Overview
 
@@ -12,12 +13,12 @@ The analysis was first conducted in **SQL** and then replicated in **Excel** to 
 
 The dataset provides insights into operational challenges facing healthcare administrators who must balance cost containment with quality care delivery. By analyzing historical patterns, this investigation reveals actionable findings that support evidence-based decision making for strategic planning and operational improvements.
 
-<p align="center" style="margin:0;"><a href="https://github.com/atonekaboni/healthcare-analytics/blob/main/Excel/Healthcare_Data_Analysis_Excel.pdf" target="_blank"><img width="1907" height="1073" alt="Healthcare_Data_Analysis_Dashboard" src="https://github.com/user-attachments/assets/94ef3ff1-25eb-4c54-a3ba-5256d1afaf30" /></a><small><em>2022 data excluded from Excel analysis and visualizations</em></small></p>
+<p align="center" style="margin:0;"><a href="https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Excel/Healthcare_Data_Analysis_Excel.pdf" target="_blank"><img width="1907" height="1073" alt="Healthcare_Data_Analysis_Dashboard" src="https://github.com/user-attachments/assets/94ef3ff1-25eb-4c54-a3ba-5256d1afaf30" /></a><small><em>2022 data excluded from Excel analysis and visualizations</em></small></p>
 
 ## Database Architecture
 The healthcare database connects patient demographics to clinical encounters and financial records through four normalized tables: **patients**, **encounters**, **procedures**, and **payers**. This structure enables multi-dimensional analysis across demographics, encounter types, procedure patterns, and financial performance.
 
-<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/blob/main/Healthcare_Data_Analysis_SQL.pdf" target="_blank"><img width="400" height="auto" alt="ERD" src="https://github.com/user-attachments/assets/0e2abe9f-26d0-40c2-90f0-e12c53794fa9" />
+<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Healthcare_Data_Analysis_SQL.pdf" target="_blank"><img width="400" height="auto" alt="ERD" src="https://github.com/user-attachments/assets/0e2abe9f-26d0-40c2-90f0-e12c53794fa9" />
 
 ## Executive Summary
 Massachusetts General Hospital analysis reveals critical revenue risks with 49% of encounters lacking payer coverage, representing potential losses exceeding $75 million annually. Patient volume grew 164% over the decade, but 2021 data shows concerning readmission patterns with 771 patients requiring readmission within 30 days. The analysis identifies actionable opportunities for revenue recovery through pre-visit insurance verification and targeted case management for high-risk patients.
@@ -28,16 +29,16 @@ Massachusetts General Hospital analysis reveals critical revenue risks with 49% 
 ### Revenue Coverage Crisis
 -	**payer coverage:** 49% of all encounters (13,586 visits) operate without payer coverage, representing substantial revenue exposure affecting nearly half of hospital activity.
 
-<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/blob/main/Excel/Healthcare_Data_Analysis_Excel.pdf" target="_blank"><img alt="Share of Encounters by Coverage" src="https://github.com/user-attachments/assets/fa036815-3940-4167-8df5-6f2c658315a7" width="35%" />
+<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Excel/Healthcare_Data_Analysis_Excel.pdf" target="_blank"><img alt="Share of Encounters by Coverage" src="https://github.com/user-attachments/assets/fa036815-3940-4167-8df5-6f2c658315a7" width="35%" />
 
 -	**Reimbursement:** Payer reimbursement varies dramatically, with Medicaid providing the highest average at $6,205 per encounter, while Dual Eligible patients generate the lowest reimbursement at only $1,696 per encounter. Uninsured patients generate $5,593 in average claims, indicating significant uncollectable receivables. (Visualization below created in Python with SQLAlchemy and Matplotlib.)
   
-<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/blob/main/Healthcare_Data_Analysis_SQL.pdf" target="_blank"><img width="589" height="390" alt="Payer Performance Chart" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
+<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Healthcare_Data_Analysis_SQL.pdf" target="_blank"><img width="589" height="390" alt="Payer Performance Chart" src="https://github.com/user-attachments/assets/dfbf8a77-f9ff-4be4-89e2-ef485c4fb991" />
  
 ### Critical Care Economics
 The analysis reveals dramatic cost variations in hospital procedures. ICU admissions dominate at $206,260 per procedure (5 total), representing the most resource-intensive care. However, the most striking finding is electrical cardioversion with 1,383 procedures at $25,903 each (over $35 million) - indicating substantial resource allocation to cardiac emergency procedures.
 
-<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/blob/main/Excel/Healthcare_Data_Analysis_Excel.pdf" target="_blank"><img alt="TOP Procedures Total and Average Base Cost" src="https://github.com/user-attachments/assets/28ae171c-2e66-4d35-ae01-4e786575b39d" width="62%" />
+<p align="center"><a href="https://github.com/atonekaboni/healthcare-analytics/raw/refs/heads/main/Excel/Healthcare_Data_Analysis_Excel.pdf" target="_blank"><img alt="TOP Procedures Total and Average Base Cost" src="https://github.com/user-attachments/assets/28ae171c-2e66-4d35-ae01-4e786575b39d" width="62%" />
 
 <p align="center"><img width="570" height="auto" alt="Average Cost" src="https://github.com/user-attachments/assets/547d07a0-453f-47c3-a2aa-03160057964c" /><br><small><em>Average Cost</em></small></p>
 
